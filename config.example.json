@@ -4,7 +4,7 @@
     "autoBlock": false,
     "queue": {
         "enabled": false,
-        "rabbitmq": "http://frlol.xyz/logging",
+        "rabbitmq": "amqp://localhost",
         "queue": "webhook-proxy"
     },
     "redis": "redis://127.0.0.1/0",
