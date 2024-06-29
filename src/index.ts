@@ -790,7 +790,7 @@ app.post('/api/webhooks/:id/:token/queue', webhookQueuePostRatelimit, async (req
         warn(formatId(req.params.id, gameId), 'attempted to queue whilst blocked for', reason);
         return res.status(403).json({
             proxy: true,
-            message: 'This webhook has been blocked. Please contact @lewisakura on the DevForum.',
+            message: 'This webhook has been blocked. Please contact @connorw271 on the DevForum.',
             reason: reason
         });
     }
